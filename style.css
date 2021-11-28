@@ -33,7 +33,7 @@ h3 {
 }
 
 .resume {
-  width: 870px;
+  width: 800px;
   background: #fbfbfb;
   margin: 20px auto;
   border: 1px solid #bbb;
@@ -171,7 +171,7 @@ h3 {
   display: block;
 }
 .resume .func {
-  width: 645px;
+  width: 550px;
   padding: 30px 25px;
 }
 .resume .func:hover > div {
@@ -266,10 +266,10 @@ h3 {
   transition-duration: 0.3s;
 }
 .resume .func .work {
-  width: 42%;
+  width: 50%;
 }
 .resume .func .edu {
-  width: 58%;
+  width: 100%;
 }
 .resume .func .skills-prog {
   clear: both;
