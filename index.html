@@ -5,7 +5,7 @@
   <title>CodePen - Resume</title>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
 <link rel='stylesheet' href='https://s.plurk.com/0e89357f530f0a843c68440a020d4eb5.css'><link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="yorha.css"/>
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -14,11 +14,11 @@
     <div class="profile">
       <div class="photo"><img src="https://raw.githubusercontent.com/tbluet/BlPort/main/port/assets/img/profile.jpg"/></div>
       <div class="info">
-        <h4 class="name">서 정민</h4>
+        <h4 class="name">서 정민</h4><!--<small class="job">임베디드 프로그래머</small> --->
       </div>
     </div>
     <div class="about">
-      <h3>About me</h3>안녕하세요! 저는 서정민이라고 합니다.<br>부품을 조합하여 새로운 제품을 만드는 것에 흥미를 느끼며, 다양한 하드웨어와 소프트웨어 기술을 활용하여 독특한 제품을 만들어냅니다.<br>제가 만든 제품은 단순히 기능하는 것을 넘어 사용자의 생활을 향상시키고, 세상을 바꾸는 데 기여할 수 있습니다. 제 포트폴리오를 통해 제가 어떤 프로젝트를 진행했는지 확인해보세요. 저의 열정과 능력이 여러분의 프로젝트에 긍정적인 영향을 미칠 것입니다. 
+      <h3>About me</h3>안녕하세요! 부품을 조합하여 새로운 제품을 만드는 것이 흥미를 느끼는 서정민입니다.<br>다양한 하드웨어 조합으로 많은 것을 만들 수 있는 기술을 가졌으며, 프로그램 기술로 장치제어 및 UI를 만들 수 있습니다.<br>제가 실제로 진행했던 프로젝트는 포트폴리오를 통해 확인할 수 있습니다. 
 <br>찾아와주셔서 감사합니다.<br/>
     </div>
     <div class="contact">
@@ -35,7 +35,7 @@
   </div>
   <div class="func">
     <div class="work">
-      <h3><i class="fa fa-graduation-cap"></i><b>학력</b></h3>
+      <h3><i class="fa fa-graduation-cap"></i>학력</h3>
       <ul>
         <li><span>목원대학교</span><small>편입 졸업<br>2018-03 ~ 2022-01</small></li>
         <li><span>마산대학교</span><small>졸업<br>2016-03 - 2018-02</small></li>
@@ -43,7 +43,7 @@
       </ul>
     </div>
     <div class="work">
-      <h3><i class="fa fa-briefcase"></i><b>대외 경혐</b></h3>
+      <h3><i class="fa fa-briefcase"></i>대외 경혐</h3>
       <ul>
         <li><span>중소기업 융합 전시회</span><small>시뮬레이터 전시<br>2021-11-17 ~ 2021-11-19</small></li>
         <li><span>마루전자(알바)</span><small>시뮬레이터 제어 프로그램 개발<br>2021-01-04 ~ 2021-11-19(11개월)</small></li>
@@ -51,22 +51,15 @@
       </ul>
     </div>
     <div class="work">
-      <h3><i class="fa fa-briefcase"></i><b>직장</b></h3>
-      <ul>
-        <li><span>ANH Systems(마루전자가 인수됨)</span><small>소프트웨어 개발자<br>2022-06-13 ~ </small></li>
-        <li><span>마루전자</span><small>소프트웨어 개발자<br>2022-02-01 ~ 2022-06-13</small></li>
-      </ul>
-    </div>
-    <div class="work">
-      <h3><i class="fa fa-briefcase"></i><b>경력서</b></h3>
+      <h3><i class="fa fa-briefcase"></i>경력서</h3>
       <ul id="myList">
         <li>
-          <span>하중 강도 테스트 시스템</span>
+          <span>소형 무인 비행체 하중 테스트시스템</span>
           <small>
             2023-09 ~ 2023-11 (2개월)<br>
             하중 테스트 시스템 개발<br>
             - 2T 리니어 액추에이터 제어<br>
-            - 300kg 로드셀 피드백 하중 제어<br>
+            - 로드셀 값 피드백 하중 제어<br>
             - 각 액추에이터 별 프로파일 적용<br>
           </small>
         </li>
@@ -77,11 +70,11 @@
             6축 모션 플렛폼 제어 개발<br>
             - 그래픽스를 활용한 Pitch,Roll,Z 제어<br>
             - 6개 Tof센서 송수신 펌웨어 개발<br>
-            - 가상 액추에이터 거리값에 따른 액추에이터 제어 알고리즘 개발
+            - 거리값에 따른 액추에이터 제어 알고리즘 개발
           </small>
         </li>
         <li>
-          <span>해상 레이싱 게임 모션 플렛폼</span>
+          <span>해상 레이싱 시뮬레이터</span>
           <small>
             2023-07 ~ 2023-08 (1개월)<br>
             3축 레일 형 모션 플렛폼 제어 개발<br>
@@ -91,18 +84,27 @@
         <li>
           <span>육상 드론 착륙 시스템 개발</span>
           <small>2022-09 ~ 2023-01 (4개월)<br>
-            3축 모션 플렛폼 하드웨어 펌웨어 개발<br> 
-            - 그래픽스를 활용한 Pitch,Roll 제어<br>
-            - 라즈베리파이를 활용하여 드론과 모션플렛폼 컨트롤 프로그램 개발<br>
-            - OpenCv를 활용한 마커 추적 알고리즘 개발<br>
-            - 이동 하는 플렛폼에 착륙하는 알고리즘 개발<br>
-            - 가상 액추에이터 거리값에 따른 액추에이터 제어 알고리즘 개발
+            Test
+          </small>
+        </li>
+        <li>
+          <span>Test 5</span>
+          <small>
+            0000-00-00 ~ 0000-00-00<br>
+            Test
           </small>
         </li>
       </ul>
     </div>
+    <div class="work">
+      <h3><i class="fa fa-briefcase"></i>직장</h3>
+      <ul>
+        <li><span>ANH Systems(마루전자가 인수됨)</span><small>소프트웨어 개발자<br>2022-06-13 ~ </small></li>
+        <li><span>마루전자</span><small>소프트웨어 개발자<br>2022-02-01 ~ 2022-06-13</small></li>
+      </ul>
+    </div>
     <div class="edu">
-      <h3><i class="fa fa-file"></i><b>수상내역</b></h3>
+      <h3><i class="fa fa-file"></i>수상내역</h3>
       <ul>
         <li><span>국제로봇 올림피아드 한국대회 본선 - 트랜스포터(장려상)</span><small>2015-08-15</small></li>
         <li><span>국제로봇 올림피아드 한국대회 중남부예선 - 미션형 창작(금상)</span><small>2015-08-08</small></li>
@@ -115,7 +117,7 @@
       </ul>
     </div>
     <div class="skills-prog">
-      <h3><i class="fa fa-code"></i><b>코딩 능력</b></h3>
+      <h3><i class="fa fa-code"></i>코딩 능력</h3>
       <ul>
         <li data-percent="90"><span>Python</span>
           <div class="skills-bar">
@@ -155,7 +157,7 @@
       </ul>
     </div>
     <div class="skills-soft">
-      <h3><i class="fa fa-th-list"></i><b>코딩 외 능력</b></h3>
+      <h3><i class="fa fa-th-list"></i>코딩 외 능력</h3>
       <ul>
         <li data-percent="80">
           <svg viewbox="0 0 100 100">
@@ -184,13 +186,13 @@
       </ul>
     </div>
     <div class="interests">
-      <h3><i class="fa fa-star"></i><b>취미</b></h3>
+      <h3><i class="fa fa-star"></i>취미</h3>
       <div class="interests-items">
-        <div class="movie"><i class="fa fa-film"></i><span>영화 감상</span></div>
+        <div class="movie"><i class="fa fa-film"></i><span>영상 감상</span></div>
         <div class="music"><i class="fa fa-headphones"></i><span>음악 감상</span></div>
         <div class="game"><i class="fa fa-gamepad"></i><span>게임</span></div>
         <div class="car"><i class="fa fa-car"></i><span>여행</span></div>
-        <div class="flask"><i class="fa fa-flask"></i><span>DIY</span></div>
+        <div class="flask"><i class="fa fa-flask"></i><span>만들기</span></div>
       </div>
     </div>
   </div>
